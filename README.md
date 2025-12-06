@@ -1,2 +1,34 @@
-# Final-Project-LIS-4370
-The final project of my class.
+README
+================
+
+holmpack is my small utility package to have installed while I do
+assignments.
+
+It has a few key functions which include…
+
+1.  Easy plotting for box, bar, and scatterplots (scatterify, boxify,
+    barify)
+2.  Calculating functions (addnum, multnum, subnum, divnum)
+3.  A function to print a few formulas (formulas)
+4.  And lastly a method to enter, name, and save data points with an S3
+    object (begin_entry)
+
+``` r
+# Installing:
+
+install.packages("devtools")
+devtools::install_github("cholm2244/holmpack")
+library(holmpack)
+
+# Examples of use:
+
+scatterify(cyl, mpg, mtcars)
+boxify(cyl, mpg, mtcars)
+barify(cyl, mpg, mtcars)
+addnum(1, 2)
+subnum(2, 1)
+multnum(2, 2)
+divnum(4, 2)
+formulas()
+begin_entry("3/5/24 Gallons", 53)
+```

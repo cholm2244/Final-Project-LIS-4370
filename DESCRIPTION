@@ -1,0 +1,15 @@
+Package: holmpack
+Title: General Utility Package for Colin
+Version: 0.0.0.9000
+Authors@R: 
+    person("Colin", "Holm", email = "cholm2244@gmail.com", 
+    role = c("aut", "cre"))
+Description: This is a general utility package for myself so I can more easily finish certain assignments. It will be uploaded as my final project for LIS4370 and will be put on github. Following this, I will write about it as a blog post.
+Depends: R (>= 3.1.2)
+Imports: ggplot2
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Maintainer: Colin Holm <cholm2244@gmail.com>
